@@ -13,8 +13,9 @@ var GalvanizeReactReduxGenerator = yeoman.generators.Base.extend({
   createApp: function(){
     this.copy('./src/actions/index.js', './src/app/actions/index.js');
     this.copy('./src/components/app.js', './src/components/app.js');
-    this.copy('./style/style.css', './style/style.css')
     this.copy('./src/reducers/index.js', './src/reducers/index.js');
+    this.copy('./style/style.css', './style/style.css')
+    this.copy('./src/index.js', './src/index.js');
     this.copy('./test/components/app_test.js', './test/components/app_test.js');
     this.copy('./test/test_helper.js', './test/test_helper.js');
     this.copy('_gitignore', '.gitignore');
