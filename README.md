@@ -4,9 +4,7 @@
 
 ## Install
 
-1. Install [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/) (if necessary) - `npm install -g mocha chai`
 1. Install Yeoman (if necessary) - `npm install -g yo`
-1. Install Gulp (if necessary) - `npm install -g gulp`
 1. Install the generator - `npm install -g generator-galvanize-react`
 1. Run - `yo galvanize-react` and `npm install`
 
